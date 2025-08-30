@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+      <link rel="stylesheet" href="./styles/student.css">
+</head>
+
+<body>
+    <main class="container mt-4 mb-2">
+        <form action="AddStudent" method="post" id="studentForm">
+            <div class="row justify-content-center">
+                <!-- Title -->
+                <div class="col-12 col-md-8">
+                    <div class="first-box bg-white shadow rounded-3 p-3">
+                        <span class="fw-bold">Student Information Form</span>
+                    </div>
+                </div>
+
+                <!-- Name -->
+                <div class="col-12 col-md-8 mt-2">
+                    <div class="bg-white shadow rounded-3 p-3">
+                        <span class="font-size">Name of the Student</span>
+                        <input type="text" class="form-control input-border-line mt-1" name="stdName" id="stdName">
+                        <span class="error text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Roll Number -->
+                <div class="col-12 col-md-8 mt-2">
+                    <div class="bg-white shadow rounded-3 p-3">
+                        <span class="font-size">Roll Number of the Student</span>
+                        <input type="text" class="form-control input-border-line mt-1" name="stdRoll" id="stdRoll">
+                        <span class="error text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Age -->
+                <div class="col-12 col-md-8 mt-2">
+                    <div class="bg-white shadow rounded-3 p-3">
+                        <span class="font-size">Student Age</span>
+                        <input type="text" class="form-control input-border-line mt-1" name="stdAge" id="stdAge">
+                        <span class="error text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Email -->
+                <div class="col-12 col-md-8 mt-2">
+                    <div class="bg-white shadow rounded-3 p-3">
+                        <span class="font-size">Email</span>
+                        <input type="text" class="form-control input-border-line mt-1" name="stdEmail" id="stdEmail">
+                        <span class="error text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Branch -->
+                <div class="col-12 col-md-8 mt-2">
+                    <div class="bg-white shadow rounded-3 p-3">
+                        <span class="font-size">Branch</span>
+                        <input type="text" class="form-control input-border-line mt-1" name="stdBranch" id="stdBranch">
+                        <span class="error text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Address -->
+                <div class="col-12 col-md-8 mt-2">
+                    <div class="bg-white shadow rounded-3 p-3">
+                        <span class="font-size">Address</span>
+                        <input type="text" class="form-control input-border-line mt-1" name="stdAdd" id="stdAdd">
+                        <span class="error text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- City -->
+                <div class="col-12 col-md-8 mt-2">
+                    <div class="bg-white shadow rounded-3 p-3">
+                        <span class="font-size">City Name</span>
+                        <input type="text" class="form-control input-border-line mt-1" name="stdCity" id="stdCity">
+                        <span class="error text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- State -->
+                <div class="col-12 col-md-8 mt-2">
+                    <div class="bg-white shadow rounded-3 p-3">
+                        <span class="font-size">State Name</span>
+                        <select class="form-select input-border-line mt-1" name="stdState" id="stdState">
+                            <option value="">-- Select State --</option>
+                            <option value="Telangana">Telangana</option>
+                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                            <option value="Karnataka">Karnataka</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Tamil Nadu">Tamil Nadu</option>
+                            <option value="Kerala">Kerala</option>
+                        </select>
+                        <span class="error text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Pin Code -->
+                <div class="col-12 col-md-8 mt-2">
+                    <div class="bg-white shadow rounded-3 p-3">
+                        <span class="font-size">Pin Code</span>
+                        <input type="text" class="form-control input-border-line mt-1" name="stdPin" id="stdPin">
+                        <span class="error text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- College -->
+                <div class="col-12 col-md-8 mt-2">
+                    <div class="bg-white shadow rounded-3 p-3">
+                        <span class="font-size">College Name</span>
+                        <input type="text" class="form-control input-border-line mt-1" name="stdCollege" id="stdCollege">
+                        <span class="error text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="col-12 col-md-8 mt-2 text-end">
+                    <button type="submit" class="px-4 py-1 btn text-light">Submit</button>
+                </div>
+            </div>
+        </form>
+      
+    </main>
+
+	    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+     <script src="./js/studentForm.js"></script>
+</body>
+
+</html>

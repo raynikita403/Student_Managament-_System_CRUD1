@@ -1,0 +1,42 @@
+ body{
+    background-color: rgb(219, 204, 232) !important;
+}
+.first-box {
+    border-top: 8px solid rgb(121, 40, 175);
+    border-left: 4px solid rgb(46, 93, 163);
+}
+.font-size{
+    font-size: 12px;
+    font-weight: 600;
+}
+.input-border-line{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+button{
+    border: none;
+    background-color: rgb(121, 40, 175) !important;
+    color: white;
+}
+input{
+    font-size: 12px !important;
+
+}
+
+/*View Page*/
+table{
+	font-size: 12px !important;
+	
+}
+#studentsTable thead th {
+    background-color: rgb(121, 40, 175) !important;
+    color: white !important;
+    text-align: center;
+    
+}
+/*update Page*/
+.update-roll{
+ background-color: rgb(219, 204, 232) !important;
+}
+
+
